@@ -8,7 +8,7 @@
 #define BASE_PATH "sdmc:/chip8/"
 #define ROM_EXT "ch8"
 
-#define TEXT_BUFFER_SIZE 256
+#define TEXT_BUFFER_SIZE 2048
 
 static int handler(void* v_ptr, const char* section, const char* name, const char* value) {
 	RomFile *rom_file = (RomFile *)v_ptr;
